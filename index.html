@@ -7,20 +7,19 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Tochmon Battle Simulator</h1>
-    <div class="battlefield">
-      <div class="tochmon" id="tochmon1">
-        <img id="tochmon1Image" src="images/1.png" alt="Tochmon 1" />
-        <p id="tochmon1Health">Health: 100</p>
+    <div id="battle">
+      <div id="pokemon1">
+        <img id="pokemon1-img" src="images/1.png" alt="Pokémon 1" />
+        <h2 id="pokemon1-name">Tochmon 1</h2>
+        <p id="pokemon1-health">Health: 100</p>
       </div>
-      <div class="tochmon" id="tochmon2">
-        <img id="tochmon2Image" src="images/2.png" alt="Tochmon 2" />
-        <p id="tochmon2Health">Health: 100</p>
+      <div id="pokemon2">
+        <img id="pokemon2-img" src="images/2.png" alt="Pokémon 2" />
+        <h2 id="pokemon2-name">Tochmon 2</h2>
+        <p id="pokemon2-health">Health: 100</p>
       </div>
-    </div>
-    <div class="controls">
-      <p id="turnStatus">Tochmon 1's turn</p>
-      <button id="attackButton" onclick="attack()">Attack</button>
+      <button id="attack-btn">Attack!</button>
+      <p id="status">The battle is about to begin!</p>
     </div>
     <script src="tochmon.js"></script>
   </body>

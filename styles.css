@@ -1,43 +1,14 @@
-body {
-  font-family: Arial, sans-serif;
+#battle {
   text-align: center;
-  background-color: #f0f0f0;
 }
 
-h1 {
-  margin-bottom: 20px;
-}
-
-.battlefield {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px;
-}
-
-.tochmon {
-  text-align: center;
+#pokemon1,
+#pokemon2 {
+  display: inline-block;
+  margin: 20px;
 }
 
 img {
-  width: 150px; /* Adjust to fit your design */
-  height: auto;
-}
-
-button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #ffcc00;
-  border: none;
-  cursor: pointer;
-}
-
-p {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.controls {
-  margin-top: 20px;
+  width: 200px;
+  height: 200px;
 }
