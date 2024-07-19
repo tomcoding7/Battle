@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tochmon Battle Simulator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Tochmon Battle Simulator</h1>
+    <div class="battlefield">
+      <div class="tochmon" id="tochmon1">
+        <img id="tochmon1Image" src="images/1.png" alt="Tochmon 1" />
+        <p id="tochmon1Health">Health: 100</p>
+      </div>
+      <div class="tochmon" id="tochmon2">
+        <img id="tochmon2Image" src="images/2.png" alt="Tochmon 2" />
+        <p id="tochmon2Health">Health: 100</p>
+      </div>
+    </div>
+    <div class="controls">
+      <p id="turnStatus">Tochmon 1's turn</p>
+      <button id="attackButton" onclick="attack()">Attack</button>
+    </div>
+    <script src="tochmon.js"></script>
+  </body>
+</html>
